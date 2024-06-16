@@ -1,0 +1,14 @@
+grades = [[5, 3, 3, 5, 4], [2, 2, 2, 3], [4, 5, 5, 2], [4, 4, 3], [5, 5, 5, 4, 5]]
+students = {'Johnny', 'Bilbo', 'Steve', 'Khendrik', 'Aaron'}
+res=sorted(students)
+a=[5, 3, 3, 5, 4]
+b=[2, 2, 2, 3]
+c=[4, 5, 5, 2]
+d= [4, 4, 3]
+e=[5, 5, 5, 4, 5]
+average0=sum(a)/len(a)
+average1=sum(b)/len(b)
+average2=sum(c)/len(c)
+average3=sum(d)/len(d)
+average4=sum(e)/len(e)
+print({res[0]: average0,res[1]: average1,res[2]: average2,res[3]: average3,res[-1]: average4})
